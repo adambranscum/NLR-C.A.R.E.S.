@@ -1,0 +1,801 @@
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" media="screen" type="text/css" href="css/stylesheet.css?v1.15"/>
+	<link rel="stylesheet" media="print" type="text/css" href="css/print.css?v1.0"/>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+    <!-- Bootstrap -->
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="css/hover.css" rel="stylesheet" type="text/css">
+	<link href="css/google-translate.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>	
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['11-13', 13],
+          ['14-16', 43],
+          ['17-19', 11]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Age',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Premiere High School', 17],
+          ['North Little Rock High School', 11],
+          ['Lisa Academy', 2],
+		  ['North Little Rock Academy', 34],
+		  ['North Little rock Catholic Academy', 1],
+		  ['Calvary Academy', 2]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'School',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('School'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 11],
+          ['Never', 17],
+          ['Seldom', 3],
+		  ['Sometimes', 20],
+		  ['Often', 0],
+		  ['Almost Always', 16]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'I have someone to talk to when I am feeling depressed anxious or angry',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question1'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 2],
+          ['Never', 40],
+          ['Seldom', 8],
+		  ['Sometimes', 12],
+		  ['Often', 0],
+		  ['Almost Always', 5]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'I have been bullied by someone at school or in my neighborhood.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question2'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 1],
+          ['Never', 15],
+          ['Seldom', 8],
+		  ['Sometimes', 20],
+		  ['Often', 5],
+		  ['Almost Always', 18]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'My school has a counselor who people can go to when they need help or are afraid.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question3'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 0],
+          ['Never', 20],
+          ['Seldom', 7],
+		  ['Sometimes', 20],
+		  ['Often', 11],
+		  ['Almost Always', 9]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Fights are common in my neighborhood.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question4'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 1],
+          ['Never', 2],
+          ['Seldom', 4],
+		  ['Sometimes', 20],
+		  ['Often', 8],
+		  ['Almost Always', 32]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'I feel safe in my neighborhood.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question5'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 2],
+          ['Never', 46],
+          ['Seldom', 4],
+		  ['Sometimes', 9],
+		  ['Often', 4],
+		  ['Almost Always', 2]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'I have been asked to be part of a gang.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question6'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 2],
+          ['Never', 40],
+          ['Seldom', 3],
+		  ['Sometimes', 14],
+		  ['Often', 3],
+		  ['Almost Always', 5]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Many times, I am afraid for my safety in my school.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question7'));
+        chart.draw(data, options);
+      }
+    </script>
+		<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 2],
+          ['Never', 3],
+          ['Seldom', 11],
+		  ['Sometimes', 21],
+		  ['Often', 10],
+		  ['Almost Always', 20]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Fights are common in my school.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question8'));
+        chart.draw(data, options);
+      }
+    </script>
+	   
+		<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 5],
+          ['Never', 1],
+          ['Seldom', 2],
+		  ['Sometimes', 15],
+		  ['Often', 9],
+		  ['Almost Always', 35]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'My parents know my friends, and my parents are in my life.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question9'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 4],
+          ['Never', 19],
+          ['Seldom', 7],
+		  ['Sometimes', 22],
+		  ['Often', 5],
+		  ['Almost Always', 10]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Fights are common in my neighborhood.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question10'));
+        chart.draw(data, options);
+      }
+    </script>
+		<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Yes', 24],
+          ['No', 42],
+		  ['Did not answer', 1]
+          
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Bullying',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question11'));
+        chart.draw(data, options);
+      }
+    </script>
+			<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Yes', 10],
+          ['No', 56],
+		  ['Did not answer', 1]
+          
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Gang Violence',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question12'));
+        chart.draw(data, options);
+      }
+    </script>
+				<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Yes', 19],
+          ['No', 47],
+		  ['Did not answer', 1]
+          
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Cyber Bullying',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question13'));
+        chart.draw(data, options);
+      }
+    </script>
+					<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Yes', 24],
+          ['No', 42],
+		  ['Did not answer', 1]
+          
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Racial Discrimination',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question14'));
+        chart.draw(data, options);
+      }
+    </script>
+			<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Yes', 20],
+          ['No', 45],
+		  ['Did not answer', 2]
+          
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'Gender Discrimination',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question15'));
+        chart.draw(data, options);
+      }
+    </script>
+	<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 1],
+          ['Never', 16],
+          ['Seldom', 7],
+		  ['Sometimes', 27],
+		  ['Often', 7],
+		  ['Almost Always', 9]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'The police patrol my neighborhood on a regular basis.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question16'));
+        chart.draw(data, options);
+      }
+    </script>
+		<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 1],
+          ['Never', 16],
+          ['Seldom', 6],
+		  ['Sometimes', 28],
+		  ['Often', 7],
+		  ['Almost Always', 9]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'My family and I attend a local church.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question17'));
+        chart.draw(data, options);
+      }
+    </script>
+			<script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Did Not Answer,', 5],
+          ['Never', 32],
+          ['Seldom', 3],
+		  ['Sometimes', 13],
+		  ['Often', 5],
+		  ['Almost Always', 9]
+          
+        ]);
+
+        // Set chart options
+        var options = {'title':'I am part of a club, athletic team, or other organization.',
+                       'width':800, 'height':500};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('question18'));
+        chart.draw(data, options);
+      }
+    </script>
+
+  </head>
+
+  <body id="content" class="d-flex flex-column min-vh-100 bg-search" >
+	 <div class="container mt-5">
+	<h1 class="text-center mb-4">Results from Survey</h1>
+	<div class="">
+	
+
+  <!-- The slideshow -->
+ 
+    
+      <div class="mb-5" id="chart_div"></div>
+    
+       <div class="mb-5"  id="School"></div>
+    
+       <div  style="page-break-after: always;" class="mb-5" id="question1"></div>
+    
+       <div class="mb-5" id="question2"></div>
+  
+       <div  style="page-break-after: always;" class="mb-5" id="question3"></div>
+   
+	
+       <div class="mb-5" id="question4"></div>
+   
+       <div  style="page-break-after: always;" class="mb-5" id="question5"></div>
+    
+       <div class="mb-5" id="question6"></div>
+    
+       <div  style="page-break-after: always;" class="mb-5" id="question7"></div>
+    
+       <div  style="page-break-after: always;" class="mb-5" id="question8"></div>
+    
+       <div class="mb-5" id="question9"></div>
+    
+       <div  style="page-break-after: always;" class="mb-5" id="question10"></div>
+    
+       <div class="mb-5" id="question11"></div>
+    
+       <div   style="page-break-after: always;" class="mb-5" id="question12"></div>
+    
+       <div   class="mb-5" id="question13"></div>
+    
+       <div  style="page-break-after: always;" class="mb-5" id="question14"></div>
+    
+       <div class="mb-5" id="question15"></div>
+    
+       <div  style="page-break-after: always;" class="mb-5" id="question16"></div>
+    
+       <div class="mb-5" id="question17"></div>
+    
+       <div class="mb-5" id="question18"></div>
+    </div>
+  </div>
+
+    <!--Div that will hold the pie chart-->
+		 
+		 
+	  
+  </body>
+</html>

@@ -1,0 +1,110 @@
+[02-Aug-2021 20:24:29 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:26:48 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:51:04 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:51:28 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:51:29 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:52:05 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:52:06 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:52:06 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:52:06 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:52:07 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:52:07 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:53:34 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:53:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_error() expects exactly 1 argument, 0 given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:126
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(126): mysqli_error()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 126
+[02-Aug-2021 20:53:36 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:53:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_error() expects exactly 1 argument, 0 given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:126
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(126): mysqli_error()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 126
+[02-Aug-2021 20:53:49 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:53:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_error() expects exactly 1 argument, 0 given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:126
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(126): mysqli_error()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 126
+[02-Aug-2021 20:53:50 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:53:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_error() expects exactly 1 argument, 0 given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:126
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(126): mysqli_error()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 126
+[02-Aug-2021 20:53:52 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:53:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_error() expects exactly 1 argument, 0 given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:126
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(126): mysqli_error()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 126
+[02-Aug-2021 20:54:28 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:54:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_error() expects exactly 1 argument, 0 given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:126
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(126): mysqli_error()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 126
+[02-Aug-2021 20:54:29 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:54:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_error() expects exactly 1 argument, 0 given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:126
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(126): mysqli_error()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 126
+[02-Aug-2021 20:54:50 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:54:50 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:129
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(129): mysqli_num_rows()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 129
+[02-Aug-2021 20:54:50 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:54:50 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:129
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(129): mysqli_num_rows()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 129
+[02-Aug-2021 20:55:27 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:55:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:129
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(129): mysqli_num_rows()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 129
+[02-Aug-2021 20:55:28 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:55:28 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:129
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(129): mysqli_num_rows()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 129
+[02-Aug-2021 20:55:29 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:55:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:129
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(129): mysqli_num_rows()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 129
+[02-Aug-2021 20:55:29 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:55:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:129
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(129): mysqli_num_rows()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 129
+[02-Aug-2021 20:56:20 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:56:20 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:129
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(129): mysqli_num_rows()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 129
+[02-Aug-2021 20:59:39 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 20:59:39 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php:129
+Stack trace:
+#0 /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php(129): mysqli_num_rows()
+#1 {main}
+  thrown in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 129
+[02-Aug-2021 21:02:29 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 21:04:38 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 21:04:40 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 21:04:41 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 21:04:55 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 21:06:20 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 21:06:29 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 21:06:57 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16
+[02-Aug-2021 21:09:14 UTC] PHP Warning:  Undefined array key "query" in /home/d1q6rsp6ki5t/public_html/Database/Location/nlr/adulteducation.php on line 16

@@ -1,0 +1,52 @@
+var images = [
+    {
+        "ID": "001",
+        "Image": "images/slideshow/slide1.jpg" 
+    },
+ 
+    {
+        "ID": "002",
+        "Image": "images/slideshow/slide2.jpg" 
+    },
+  
+    {
+        "ID": "003",
+        "Image": "images/slideshow/slide3.jpg" 
+    },
+	{
+        "ID": "004",
+        "Image": "images/slideshow/slide4.jpgg" 
+    },
+	{
+        "ID": "005",
+        "Image": "images/slideshow/slide5.jpg" 
+    },
+	{
+        "ID": "006",
+        "Image": "images/slideshow/slide6.jpg" 
+    },
+	{
+        "ID": "007",
+        "Image": "images/slideshow/slide7.jpg" 
+    },
+	{
+        "ID": "008",
+        "Image": "" 
+    },
+	{
+        "ID": "009",
+        "Image": "" 
+    },
+	{
+        "ID": "010",
+        "Image": "" 
+    },
+	{
+        "ID": "011",
+        "Image": "" 
+    },
+	{
+        "ID": "012",
+        "Image": "" 
+    }
+]
